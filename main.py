@@ -10,10 +10,10 @@ from PIL import Image
 from datetime import datetime
 
 
-database = r"\db\food_sup.db"
-items_txt = r"\db\actual_items.txt"
-box_1 = Image.open(r'\img\box_1.png')
-box_2 = Image.open(r'\img\box_2.png')
+database = r"db\food_sup.db"
+items_txt = r"db\actual_items.txt"
+box_1 = Image.open(r'img\box_1.png')
+box_2 = Image.open(r'img\box_2.png')
 
 conn = create_connection(database)
 
