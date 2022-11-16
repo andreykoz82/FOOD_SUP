@@ -1,0 +1,11 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:FOOD_SUP}/food_sup.db",
+            "name": "food_sup_data"
+        }
+    ]
+}
